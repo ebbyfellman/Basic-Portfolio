@@ -1,6 +1,8 @@
 body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     position: relative;
+    color: darkgray;
+    line-height: 1.25;
     
 }
 
@@ -14,7 +16,9 @@ h1{
 
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    color: #1789FC;
+    padding: 10px;
+    border-bottom: solid lightgray;
 }
 
 
@@ -65,4 +69,21 @@ section{
 
 img{
     position: relative;
+}
+
+#contact{
+    font-size: 1.5em;
+}
+
+#message{
+    height: 400px;
+    width: 960px;
+}
+
+#firstname{
+    width: 960px;
+}
+
+#email{
+    width: 960px;
 }
