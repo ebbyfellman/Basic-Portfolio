@@ -2,40 +2,73 @@
 
 <html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Ebony Fellman Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Ebony Fellman Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <body>
-    
-        <h1 id="name">Ebony Fellman</h1>
-    
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <div id="container">
-        <section>
-        <h2>Contact</h2>
-        <form id="contact">
-            First name<br>
-            <input id="firstname" type="text" name="firstname"><br>
-            Email<br>
-            <input id="email" type="text" name="email"><br>
-            Message<br>
-            <input id="message" type="text" name="message">
-        </form>
-        </section>
+<body>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Ebony Fellman</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-        <footer id="footer">
-            <p>Copyright &copy</p>
-        </footer>
+    </header>
 
-    </body>
+    <div id="main-container" class="container">
+            <section class="main-container">
+                <h2>Contact</h2>
+                
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit" name="submit">
+
+
+
+                </form>
+                
+            </section>
+
+    </div>
+    <footer>
+        <div>
+            <p>Copyright &copy</p>
+        </div>
+    </footer>
+</body>
 
 
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
