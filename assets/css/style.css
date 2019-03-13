@@ -91,7 +91,7 @@ nav a:first-child{
     background-color: white;
 }
 
-.main-section{
+.main-container{
     background: #fff;
     padding: 30px;
     margin: 0 0 40px 0;
@@ -152,6 +152,8 @@ footer{
 
 .work{
     position: relative;
+    float: left;
+    align-self: auto;
 }
 
 .work h3{
